@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.9" DotMatrixReport="False" IniFile="E:\UNISKA\Delphi Perpustakaan(SIM)\Report\Perpustakaan.fr3" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44719.6796559259" ReportOptions.Description.Text="" ReportOptions.LastChange="44719.6926821644" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403B80303546F7003B80108446174617365747301010C3400000020446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="420" PaperHeight="594" PaperSize="66" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="102.04731" Left="0" Top="18.89765" Width="1511.812">
+      <TfrxMemoView Name="Memo1" Left="578.26809" Top="22.67718" Width="370.39394" Height="30.23624" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-27" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="LAPORAN PERPUSTAKAAN"/>
+    </TfrxReportTitle>
+    <TfrxPageHeader Name="PageHeader1" Height="22.67718" Left="0" Top="143.62214" Width="1511.812">
+      <TfrxMemoView Name="Memo2" Left="0" Top="0" Width="113.3859" Height="22.67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="NIM"/>
+      <TfrxMemoView Name="Memo3" Left="113.3859" Top="0" Width="151.1812" Height="22.67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Nama Mahasiswa"/>
+      <TfrxMemoView Name="Memo4" Left="264.5671" Top="0" Width="151.1812" Height="22.67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Kelas"/>
+      <TfrxMemoView Name="Memo5" Left="415.7483" Top="0" Width="151.1812" Height="22.67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Jurusan"/>
+      <TfrxMemoView Name="Memo6" Left="566.9295" Top="0" Width="120.94496" Height="22.67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Kode Buku"/>
+      <TfrxMemoView Name="Memo7" Left="687.87446" Top="0" Width="181.41744" Height="22.67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Judul Buku"/>
+      <TfrxMemoView Name="Memo8" Left="869.2919" Top="0" Width="200.31509" Height="22.67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Penerbit"/>
+      <TfrxMemoView Name="Memo9" Left="1069.60699" Top="0" Width="113.3859" Height="22.67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Tanggal Pinjam"/>
+      <TfrxMemoView Name="Memo10" Left="1182.99289" Top="0" Width="128.50402" Height="22.67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Tanggal Kembali"/>
+      <TfrxMemoView Name="Memo11" Left="1311.49691" Top="0" Width="79.37013" Height="22.67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Lewat Hari"/>
+      <TfrxMemoView Name="Memo12" Left="1390.86704" Top="0" Width="120.94496" Height="22.67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Denda"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="22.67718" Left="0" Top="226.7718" Width="1511.812" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="frxDBDataset1NIM" Left="0" Top="0" Width="113.3859" Height="18.89765" ShowHint="False" DataField="NIM" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;NIM&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1Nama_Mahasiswa" Left="113.3859" Top="0" Width="151.1812" Height="18.89765" ShowHint="False" DataField="Nama_Mahasiswa" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;Nama_Mahasiswa&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1Kelas" Left="264.5671" Top="0" Width="151.1812" Height="18.89765" ShowHint="False" DataField="Kelas" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;Kelas&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1Jurusan" Left="415.7483" Top="0" Width="151.1812" Height="18.89765" ShowHint="False" DataField="Jurusan" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;Jurusan&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1Kode_Buku" Left="566.9295" Top="0" Width="120.94496" Height="18.89765" ShowHint="False" DataField="Kode_Buku" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;Kode_Buku&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1Judul_Buku" Left="687.87446" Top="0" Width="181.41744" Height="18.89765" ShowHint="False" DataField="Judul_Buku" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;Judul_Buku&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1Penerbit" Left="869.2919" Top="0" Width="200.31509" Height="18.89765" ShowHint="False" DataField="Penerbit" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;Penerbit&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1Tgl_Pinjam" Left="1069.60699" Top="0" Width="113.3859" Height="18.89765" ShowHint="False" DataField="Tgl_Pinjam" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;Tgl_Pinjam&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1Tgl_Kembali" Left="1182.99289" Top="0" Width="128.50402" Height="18.89765" ShowHint="False" DataField="Tgl_Kembali" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;Tgl_Kembali&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1Lewat_Hari" Left="1311.49691" Top="0" Width="79.37013" Height="18.89765" ShowHint="False" DataField="Lewat_Hari" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;Lewat_Hari&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1Denda" Left="1390.86704" Top="0" Width="120.94496" Height="18.89765" ShowHint="False" DataField="Denda" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset1.&#34;Denda&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>
+[Form4.TfrxObjectInspector]
+SplitPos=75
+Split1Pos=65
+Left=0
+Top=127
+Width=160
+Height=472
+Maximized=0
+Visible=1
+Dock4=LeftDockSite2
+[Form4.TfrxDesignerForm]
+Scale=1
+ShowGrid=1
+GridAlign=1
+ShowRulers=1
+ShowGuides=1
+Grid1=0.1
+Grid2=0.1
+Grid3=4
+Grid4=4
+Units=0
+ScriptFontName=Courier New
+ScriptFontSize=10
+MemoFontName=Arial
+MemoFontSize=10
+UseObjectFont=1
+WorkspaceColor=-16777211
+ToolsColor=-16777211
+GridLCD=0
+EditAfterInsert=1
+LocalizedOI=0
+RecentFiles=""E:\UNISKA\Delphi Perpustakaan(SIM)\Report\Perpustakaan.fr3""
+FreeBands=0
+BandsGap=4
+ShowBandCaptions=1
+DropFields=1
+ShowStartup=1
+WatchList=
+Left=-8
+Top=-8
+Width=1382
+Height=754
+Maximized=1
+Visible=1
+Dock4=
+[Form4.TfrxDataTreeForm]
+Left=0
+Top=12
+Width=160
+Height=587
+Maximized=0
+Visible=1
+Dock4=RightDockSite
+[Form4.TfrxReportTreeForm]
+Left=0
+Top=12
+Width=160
+Height=99
+Maximized=0
+Visible=1
+Dock4=LeftDockSite2
+[Form4.TfrxWatchForm]
+Left=12
+Top=0
+Width=670
+Height=100
+Maximized=0
+Visible=1
+Dock4=CodeDockSite
+[ToolBar4.StandardTB]
+Float=0
+Visible=1
+Left=11
+Top=2
+Width=541
+Height=23
+Dock4=DockTop
+[ToolBar4.TextTB]
+Float=0
+Visible=1
+Left=11
+Top=29
+Width=639
+Height=23
+Dock4=DockTop
+[ToolBar4.FrameTB]
+Float=0
+Visible=1
+Left=663
+Top=29
+Width=293
+Height=23
+Dock4=DockTop
+[ToolBar4.AlignTB]
+Float=0
+Visible=0
+Left=565
+Top=2
+Width=308
+Height=23
+Dock4=DockTop
+[ToolBar4.ExtraToolsTB]
+Float=0
+Visible=0
+Left=886
+Top=2
+Width=0
+Height=0
+Dock4=DockTop
+[Dock4.LeftDockSite1]
+Data=00000400000000000000000000000000000000000000000000FFFFFFFF
+Width=0
+Height=622
+Size=100
+[Dock4.LeftDockSite2]
+Data=0000040000000000570200000000000001A000000000000000010000000073000000110000006672785265706F727454726565466F726D010000000057020000120000006672784F626A656374496E73706563746F72FFFFFFFF
+Width=160
+Height=599
+Size=100
+[Dock4.RightDockSite]
+Data=000004000000000000000000000000000000000000000000000100000000000000000F0000006672784461746154726565466F726DFFFFFFFF
+Width=160
+Height=599
+Size=100
+[Dock4.CodeDockSite]
+Data=000004000000000000000000000000000000000000000000000100000000000000000C0000006672785761746368466F726DFFFFFFFF
+Width=682
+Height=100
+Size=100
